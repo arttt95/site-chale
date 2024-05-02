@@ -12,8 +12,12 @@ body {
     margin: 15px;
 }
 
+h2 {
+    padding: 5px 0;
+}
+
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../images/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -44,7 +48,7 @@ body {
     background: url(../images/logo.png) no-repeat;
     width: 151px;
     height: 66px;
-    text-indent: -9000;
+    text-indent: -3000px;
 
 }
 
@@ -124,3 +128,31 @@ ul#navegacao a:hover {
     float: right;
 }
 
+/*******************
+Areas de conteúdo */
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../images/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../images/bg-area-lateral.png) top right repeat-x;
+    padding: 20px 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/********
+Rodapé */
+
+#footer {
+    clear: both;
+}
